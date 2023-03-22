@@ -1,13 +1,8 @@
 import React from 'react';
-import './App.css';
+import Home from './pages/Home';
 
-export interface Props {
-  title: string;
-}
-
-function App(props: Props) {
-  // const { title } = props;
-  return <div />;
+function App() {
+  return <Home />;
 }
 
 export default App;
