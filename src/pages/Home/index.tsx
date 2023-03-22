@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home(props) {
   const [count, setCount] = useState<number>(0);
